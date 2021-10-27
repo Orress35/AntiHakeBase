@@ -1,0 +1,17 @@
+name: AntiCheat
+version: '${project.version}'
+main: net.anticheat.AntiCheatPlugin
+api-version: 1.17
+depend: [ ProtocolLib ]
+authors: [ Orress ]
+description: A minecraft antichaet base
+
+commands:
+  alerts:
+    description: toggle anticheat alerts
+  ac:
+    description: main command
+
+permissions:
+  anticheat.alerts:
+    description: toggle anticheat alerts
